@@ -8,6 +8,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyash-srivastava-310652273)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/NotRambo)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://shreyashsrivastava.vercel.app)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:shreyashsr2004@gmail.com)
 
 </div>
@@ -30,7 +31,7 @@ Currently working professionally on a NestJS + PostgreSQL + RabbitMQ backend.
 
 ---
 
-## Featured Project
+## Projects
 
 ### [🏏 22 Yards](https://github.com/ShreyashSrivastavaa/22-yards-Cricket)
 > Cricket statistics and performance tracking platform — IPL 2022–2025
@@ -38,6 +39,22 @@ Currently working professionally on a NestJS + PostgreSQL + RabbitMQ backend.
 - Adapter pattern to keep data sources swappable
 - Migrated off external APIs to a local ball-by-ball dataset
 - Stack: `Next.js` · `Prisma` · `Supabase` · `Tailwind CSS`
+
+---
+
+### [📊 DSA Tracker](https://github.com/ShreyashSrivastavaa/DSA-Tracker)
+> Personal DSA progress tracker to monitor problem-solving consistency
+
+- Clean topic-wise categorization with progress visualization
+- Stack: `React` · `Tailwind CSS`
+
+---
+
+### [🌐 Personal Portfolio](https://shreyashsrivastava.vercel.app)
+> V2 portfolio designed to signal backend engineering depth
+
+- Editorial asymmetric layout with Linear-style animations
+- Stack: `Next.js` · `Framer Motion` · `Tailwind CSS`
 
 ---
 
