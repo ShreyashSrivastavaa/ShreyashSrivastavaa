@@ -33,30 +33,29 @@ Currently working professionally on a NestJS + PostgreSQL + RabbitMQ backend.
 
 ## Projects
 
-### [🏏 22 Yards](https://github.com/ShreyashSrivastavaa/22-yards-Cricket)
-> Cricket statistics and performance tracking platform — IPL 2022–2025
+### [🏨 Hotel Management System](https://github.com/ShreyashSrivastavaa/Hotel-Booking-System_Backend)
+> Backend system for managing hotel operations, bookings, and access control
 
-- Adapter pattern to keep data sources swappable
-- Migrated off external APIs to a local ball-by-ball dataset
-- Stack: `Next.js` · `Prisma` · `Supabase` · `Tailwind CSS`
+- Designed a role-based access system with controlled privilege substitution and audit logging
+- Built booking and room allocation workflows with consistency-focused schema design
+- Structured modular services using NestJS with clear separation of concerns
+- Stack: `NestJS` · `PostgreSQL` · `Prisma` · `Docker`
 
 ---
 
 ### [📊 DSA Tracker](https://github.com/ShreyashSrivastavaa/DSA-Tracker)
 > Personal DSA progress tracker to monitor problem-solving consistency
 
-- Clean topic-wise categorization with progress visualization
+- Topic-wise problem organization with progress visualization
 - Stack: `React` · `Tailwind CSS`
 
 ---
 
 ### [🌐 Personal Portfolio](https://shreyashsrivastava.vercel.app)
-> V2 portfolio designed to signal backend engineering depth
+> Portfolio focused on backend engineering signal and system thinking
 
-- Editorial asymmetric layout with Linear-style animations
+- Clean, editorial layout with subtle motion for improved UX
 - Stack: `Next.js` · `Framer Motion` · `Tailwind CSS`
-
----
 
 ## Tech Stack
 
