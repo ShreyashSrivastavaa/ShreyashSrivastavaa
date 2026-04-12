@@ -33,6 +33,24 @@ Currently working professionally on a NestJS + PostgreSQL + RabbitMQ backend.
 
 ## Projects
 
+### [🔄 SwipeRide](https://github.com/ShreyashSrivastavaa/SwipeRide)
+> Ride-sharing backend with real-time matching and trip management
+
+- Built scalable ride request matching system with WebSocket connections
+- Implemented driver-rider pairing logic and trip lifecycle management
+- Stack: `NestJS` · `PostgreSQL` · `Redis` · `Socket.IO`
+
+---
+
+### [🍔 QuickBite](https://github.com/ShreyashSrivastavaa/QuickBite)
+> Food ordering backend with order orchestration and restaurant management
+
+- Designed order processing pipeline with status tracking and notification service
+- Built restaurant menu management and cart logic with atomic transactions
+- Stack: `NestJS` · `PostgreSQL` · `RabbitMQ` · `Docker`
+
+---
+
 ### [🏨 Hotel Management System](https://github.com/ShreyashSrivastavaa/Hotel-Booking-System_Backend)
 > Backend system for managing hotel operations, bookings, and access control
 
@@ -43,19 +61,13 @@ Currently working professionally on a NestJS + PostgreSQL + RabbitMQ backend.
 
 ---
 
-### [📊 DSA Tracker](https://github.com/ShreyashSrivastavaa/DSA-Tracker)
-> Personal DSA progress tracker to monitor problem-solving consistency
-
-- Topic-wise problem organization with progress visualization
-- Stack: `React` · `Tailwind CSS`
-
----
-
 ### [🌐 Personal Portfolio](https://shreyashsrivastava.vercel.app)
 > Portfolio focused on backend engineering signal and system thinking
 
 - Clean, editorial layout with subtle motion for improved UX
 - Stack: `Next.js` · `Framer Motion` · `Tailwind CSS`
+
+---
 
 ## Tech Stack
 
