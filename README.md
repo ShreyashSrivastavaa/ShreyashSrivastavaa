@@ -78,3 +78,5 @@ Currently working professionally on a NestJS + PostgreSQL + RabbitMQ backend.
 | Infra | Docker, RabbitMQ, Git |
 | Frontend | Next.js, Tailwind CSS |
 | Languages | JavaScript, TypeScript, C++, Go (learning) |
+
+[![Shreyash profile views](https://u8views.com/api/v1/github/profiles/176728515/views/day-week-month-total-count.svg)](https://u8views.com/github/ShreyashSrivastavaa)
