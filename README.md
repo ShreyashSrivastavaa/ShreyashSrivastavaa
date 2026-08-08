@@ -17,7 +17,7 @@
 
 ## About
 
-Final-year CS student building production-grade backend systems.  
+Recent CSE graduate student building production-grade backend systems.  
 I think in systems, not just features — async queues, clean APIs, schemas that scale.  
 Currently working professionally on a NestJS + PostgreSQL + RabbitMQ backend.
 
