@@ -1,122 +1,235 @@
 <div align="center">
 
-# Shreyash Srivastava
-**Backend Engineer · Greater Noida, India**
+<img src="https://avatars.githubusercontent.com/u/176728515?v=4" width="110" style="border-radius:50%" alt="Shreyash Srivastava" />
 
-*I build production-grade backend systems that scale. Think in terms of queues, consistency, and distributed patterns.*
+# SHREYASH SRIVASTAVA
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyash-srivastava-310652273)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/NotRambo)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://shreyashsrivastava.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ShreyashSrivastavaa)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:shreyashsr2004@gmail.com)
+**Backend Engineer** — Distributed Systems · APIs · Queues · Databases
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Backend+Engineer+%C2%B7+Node.js+%2F+NestJS;Designing+for+consistency%2C+not+just+uptime;Currently+building+GitFC+%E2%9A%BD;Shipped%3A+IHateLovePDF+%C2%B7+10K%2B+users)](https://git.io/typing-svg)
+
+<p>
+<a href="https://linkedin.com/in/shreyashsrivastavaa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://x.com/ShreyashSrivastavaa"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+<a href="https://shreyashsrivastava.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="https://leetcode.com/u/NotRambo"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
+<a href="mailto:shreyashsr2004@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
 
 </div>
 
----
+<br>
 
-## About
+```
+$ whoami
+> backend engineer · final-year CSE · building systems that don't fall over
+> shipped: 1 product with real users · 8+ projects · currently: GitFC
 
-CSE graduate building production-grade backend systems with a focus on **scalability, resilience, and clean architecture**. 
+$ status --current
+> ex Backend SDE Intern @ JBH Tech Innovation (6 months)
+> freelancing @ UpscaleTechSolutions
+> open to backend SDE roles
+```
 
-I approach problems from first principles — understanding trade-offs between consistency and availability, designing schemas that grow, orchestrating workflows across async queues. Currently shipping features in production on a **NestJS + PostgreSQL + RabbitMQ** stack.
+<br>
 
-Not just building features. Building systems.
+## `~/about`
 
----
+I design backends the way you'd design anything meant to survive contact with real users — start from the failure modes, then write the happy path.
 
-## What I'm Doing Now
+Most of what I build lives at the intersection of **queues, consistency, and state**: order pipelines that can't double-charge, booking systems that can't double-book, matching engines that can't leave a request hanging. I think in terms of trade-offs — consistency vs. availability, sync vs. async, normalized vs. denormalized — before I think in terms of frameworks.
 
-- 🚀 **Shipping** — Production backend (NestJS · PostgreSQL · RabbitMQ · Docker)  
-- 🔍 **Deep Diving** — System Design patterns, database optimization, Go  
-- 💼 **Looking For** — Backend Engineering roles with technical rigor
+**Not just building features. Building systems.**
 
----
+<br>
 
-## Deployed Projects
+## `~/currently_building`
 
-### [📄 I Hate Love PDF](https://www.ihatelovepdf.com)
-> Production PDF manipulation platform with 10K+ monthly users
-- **Live at:** `ihatelovepdf.com` | **GitHub:** [ShreyashSrivastavaa/pdf-processor](https://github.com/ShreyashSrivastavaa)
-- Built end-to-end PDF processing with optimized compression and format conversion
-- Handles concurrent uploads with worker-based processing pipeline
-- Designed fault-tolerant architecture for reliable file operations at scale
-- **Impact:** 10,000+ users, sub-2s upload processing times
-- **Stack:** `Node.js` · `Express` · `PDF.js` · `Puppeteer` · `AWS S3` · `PostgreSQL` · `Redis` · `Docker`
+<table>
+<tr>
+<td width="45%" valign="top">
 
-> **Why it matters:** Started as frustration with existing PDF tools. Became a real product serving real users. This taught me production-grade thinking: monitoring, error handling, user feedback loops.
+<img src="./assets/gitfc-card.svg" alt="GitFC card" width="100%" />
 
----
+</td>
+<td width="55%" valign="top">
 
-## Featured Projects
+### ⚽ GitFC
 
-### [🔄 SwipeRide](https://github.com/ShreyashSrivastavaa/SwipeRide) · Real-time Ride Matching Engine
-> Production-ready ride-sharing backend with real-time driver-rider matching
-- Architected WebSocket-based real-time matching system handling concurrent ride requests
-- Implemented geospatial querying for efficient driver discovery and assignment
-- Built trip lifecycle state machine ensuring data consistency across distributed events
-- **Problem Solved:** Reduced ride matching latency from 8s to 200ms through optimized socket handlers
-- **Stack:** `NestJS` · `PostgreSQL` · `Redis` · `Socket.IO` · `Docker`
+**Turn your GitHub activity into an EA FC–style Ultimate Team card.**
 
----
+GitFC pulls your commits, PRs, stars, and streaks via the GitHub GraphQL API, runs them through a weighted rating engine (45–99 OVR), assigns you a position (ST / CM / CB / GK), and renders an exportable FUT-style card — TOTY, ICON, and Gold/Silver/Bronze tiers included.
 
-### [🍔 QuickBite](https://github.com/ShreyashSrivastavaa/QuickBite) · Order Orchestration Platform
-> End-to-end food ordering system with async order processing and restaurant workflows
-- Designed order processing pipeline with RabbitMQ-based event streaming for restaurant notifications
-- Built atomic transaction handling for cart operations, inventory tracking, and payment coordination
-- Implemented restaurant menu management with versioning and real-time availability updates
-- **Problem Solved:** Eliminated race conditions in order placement through careful schema design and locking strategies
-- **Stack:** `NestJS` · `PostgreSQL` · `RabbitMQ` · `Prisma` · `Docker`
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ShreyashSrivastavaa/ShreyashSrivastavaa/main/assets/gitfc-status.json&style=flat-square" />
+<img src="https://img.shields.io/github/stars/ShreyashSrivastavaa/GitFc?style=flat-square&label=stars&color=FFD700" />
+<img src="https://img.shields.io/github/last-commit/ShreyashSrivastavaa/GitFc?style=flat-square&label=last%20shipped" />
 
----
+**Stack:** `React 19` · `TypeScript` · `Vite` · `Tailwind CSS` · `html-to-image`
 
-### [🏨 Hotel Management System](https://github.com/ShreyashSrivastavaa/Hotel-Booking-System_Backend) · Multi-tenant Booking Engine
-> Complex backend for hotel operations, bookings, multi-role access control, and audit trails
-- Designed role-based access control (RBAC) with controlled privilege substitution for staff workflows
-- Built comprehensive audit logging system tracking all state changes for compliance
-- Engineered booking and room allocation workflows with consistency-first schema design
-- Structured modular NestJS services with clear separation of concerns and testable layers
-- **Problem Solved:** Prevented overbooking and privilege escalation through careful constraints and middleware
-- **Stack:** `NestJS` · `PostgreSQL` · `Prisma` · `Docker` · `Swagger API Docs`
+[**Live Demo →**](https://gitfc.vercel.app) · [**Repository →**](https://github.com/ShreyashSrivastavaa/GitFc)
 
----
+</td>
+</tr>
+</table>
 
-## Technical Depth
+> The badges above aren't static — `gitfc-status.json` is regenerated every 6 hours by a GitHub Action that pings the live app and rewrites the endpoint. Stars and last-commit are native GitHub data, not custom-tracked.
+
+<br>
+
+## `~/deployed`
+
+### 📄 IHateLovePDF — client-side PDF utility suite
+
+<img src="https://img.shields.io/badge/status-production-brightgreen?style=flat-square" /> <img src="https://img.shields.io/badge/users-10K%2B%2Fmo-blue?style=flat-square" /> <img src="https://img.shields.io/badge/privacy-100%25%20client--side-blueviolet?style=flat-square" />
+
+A PDF toolkit — merge, split, compress, redact, convert, unlock — that never sends your file to a server. Everything runs in the browser: `pdf-lib` / `pdf.js` inside a Web Worker pipeline, so a 200-page PDF doesn't freeze the tab.
+
+- Worker-based processing pipeline handles concurrent uploads without blocking the main thread
+- Built the compression and format-conversion paths myself — no wrapper around a third-party API
+- Debugged and fixed silent data-corruption bugs in production (a detached-buffer race in the worker pipeline, and a fake-encryption path that shipped unencrypted files) — the kind of bugs that don't show up until real users hit them
+
+**Why it matters:** this wasn't a tutorial CRUD app. It's a product 10,000+ people use monthly, and running it taught me the unglamorous half of engineering — monitoring, error boundaries, and what "done" actually means once strangers depend on your code.
+
+**Stack:** `Next.js` · `TypeScript` · `pdf-lib` · `pdf.js` · `Web Workers`
+
+[**Live →**](https://www.ihatelovepdf.com) · [**Repository →**](https://github.com/ShreyashSrivastavaa/IHateLovePDF)
+
+<br>
+
+## `~/featured`
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**🔄 SwipeRide**
+*Real-time ride matching*
+
+Geospatial driver discovery over WebSockets, with a trip lifecycle state machine to keep ride state consistent across distributed events.
+
+`Node.js` `Express` `MongoDB` `Socket.IO` `Redis` `JWT`
+
+[Live](https://swipe-ride.vercel.app) · [Repo](https://github.com/ShreyashSrivastavaa/SwipeRide)
+
+</td>
+<td width="33%" valign="top">
+
+**🍜 ZyMeal**
+*Food ordering, real-time*
+
+Full-stack ordering app with Socket.io live order tracking, JWT role auth (customer/admin), and Zod-validated checkout end to end.
+
+`Node.js` `Express` `MongoDB` `React` `Socket.io`
+
+[Live](https://zymeal.vercel.app) · [Repo](https://github.com/ShreyashSrivastavaa/ZyMeal)
+
+</td>
+<td width="33%" valign="top">
+
+**🏥 Hospital Management System**
+*Collaborative team project*
+
+EMR, appointment scheduling, and bed allocation with atomic transactions — zero double-bookings by design, not by luck.
+
+`Node.js` `Express` `PostgreSQL` `Prisma`
+
+[Live](https://hospital-management-system-d3o5.onrender.com) · [Repo](https://github.com/ShreyashSrivastavaa/HMS)
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## `~/how_i_think_about_systems`
+
+```
+                       ┌──────────────────────────────┐
+   client  ──POST──▶   │   API layer (validate, auth)  │
+                       └──────────────┬────────────────┘
+                                      │
+                        fast path     │     slow path
+                     ┌────────────────┼────────────────┐
+                     ▼                                 ▼
+             ┌──────────────┐                 ┌────────────────┐
+             │  Postgres    │◀── consistency ──│  RabbitMQ queue │
+             │ (source of   │                  │  + worker pool  │
+             │  truth)      │                  └────────┬────────┘
+             └──────┬───────┘                            │
+                     │                                    ▼
+                     └──────────────▶  Redis (cache / session / rate-limit)
+
+   rules I actually follow:
+   · the database is the source of truth — cache invalidates, never the other way
+   · anything that can fail async, does fail async — retries + dead-letter, not hope
+   · consistency before cleverness; optimize the query plan, not the architecture
+```
+
+<br>
+
+## `~/stack`
+
+<table>
+<tr><td><b>Primary</b></td><td>
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,postgres,prisma,redis" />
+</td></tr>
+<tr><td><b>Also shipping with</b></td><td>
+<img src="https://skillicons.dev/icons?i=rabbitmq,docker,ts,js,nextjs,tailwind" />
+</td></tr>
+<tr><td><b>Foundations</b></td><td>
+<img src="https://skillicons.dev/icons?i=cpp,git,githubactions,postman,mongodb" />
+</td></tr>
+<tr><td><b>Actively learning</b></td><td>
+<img src="https://skillicons.dev/icons?i=go" />
+</td></tr>
+</table>
 
 | Category | Technologies |
-|----------|---|
-| **Runtimes** | Node.js, NestJS, Express.js |
-| **Databases** | PostgreSQL (advanced queries, indexing, transactions), Redis (caching, sessions), Prisma ORM, Supabase |
-| **Message Queues** | RabbitMQ (pub/sub, task queues, dead-letter handling) |
-| **Infrastructure** | Docker, Docker Compose, Git, GitHub Actions (learning) |
-| **Frontend** | Next.js, TypeScript, Tailwind CSS, Framer Motion |
-| **Languages** | TypeScript, JavaScript, C++, Go (actively learning) |
-| **Design Patterns** | SOLID principles, Clean Architecture, Event-Driven systems, State machines, Repository pattern |
+|---|---|
+| **Backend runtimes** | Node.js, Express.js, NestJS |
+| **Databases & caching** | PostgreSQL (indexing, transactions, query planning), Redis, Prisma ORM, MongoDB |
+| **Messaging** | RabbitMQ — pub/sub, task queues, dead-letter handling |
+| **Auth & validation** | JWT, RBAC, OAuth 2.0, Zod |
+| **Infra** | Docker, Docker Compose, GitHub Actions, Vercel, AWS S3 |
+| **Frontend (when needed)** | Next.js, React, TypeScript, Tailwind CSS |
+| **Currently learning** | Go, distributed consensus, advanced PostgreSQL internals |
 
----
+<br>
 
-## Key Strengths
+## `~/activity`
 
-✅ **System Thinking** — Design scalable architectures before writing a line of code  
-✅ **Production Mindset** — Error handling, monitoring, graceful degradation  
-✅ **Data Consistency** — ACID transactions, avoiding race conditions, schema design  
-✅ **Async Patterns** — Event queues, webhooks, non-blocking operations  
-✅ **API Design** — RESTful design, clear contracts, versioning strategy
-
----
-
-## Currently Learning
-
-- **Go** — Building high-performance services and gRPC  
-- **System Design** — Distributed systems, consensus algorithms, database internals
-- **Advanced PostgreSQL** — Query optimization, EXPLAIN plans, window functions
-
----
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-snake-light.svg" />
+  <img alt="contribution snake" src="./assets/contribution-snake-dark.svg" />
+</picture>
+</div>
 
 <div align="center">
 
-[![Shreyash profile views](https://u8views.com/api/v1/github/profiles/176728515/views/day-week-month-total-count.svg)](https://u8views.com/github/ShreyashSrivastavaa)
+![GitHub followers](https://img.shields.io/github/followers/ShreyashSrivastavaa?style=flat-square&label=followers)
+![Profile views](https://u8views.com/api/v1/github/profiles/176728515/views/day-week-month-total-count.svg)
 
-**Open to connecting about backend engineering, system design, and building products.**
+</div>
 
+<br>
+
+## `~/connect`
+
+Open to conversations about backend architecture, system design, or a product that's further along than the idea stage — if it involves queues, consistency guarantees, or turning a rough backend into a production one, I'm interested.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyashsrivastavaa)
+[![X](https://img.shields.io/badge/X-Follow-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/ShreyashSrivastavaa)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-000000?style=flat-square&logo=vercel&logoColor=white)](https://shreyashsrivastava.vercel.app)
+[![Email](https://img.shields.io/badge/Email-Reach%20out-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:shreyashsr2004@gmail.com)
+
+</div>
+
+<br>
+
+<div align="center">
+<sub>Assets in <code>/assets</code> are generated on a schedule by the workflows in <code>/.github/workflows</code> — see below for exactly what's live vs. static.</sub>
 </div>
