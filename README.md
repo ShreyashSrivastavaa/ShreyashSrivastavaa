@@ -115,7 +115,7 @@ Not just building features. Building systems.
 
 <div align="center">
 
-![github-profile-3d-contrib](./profile-3d-contrib/profile-green-animate.svg)   
+![isocalendar](./assets/metrics/isocalendar.svg)   
 
 </div>
 
