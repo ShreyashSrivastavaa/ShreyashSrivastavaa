@@ -1,147 +1,128 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/176728515?v=4" width="120" alt="Shreyash Srivastava" />
+# Shreyash Srivastava
+**Backend Engineer · Greater Noida, India**
 
-# SHREYASH SRIVASTAVA
+*I build production-grade backend systems that scale. Think in terms of queues, consistency, and distributed patterns.*
 
-**Backend Engineer · Distributed Systems · APIs · Queues · Databases**
-
-*I build production-grade backend systems and care about what happens when things fail.*
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=Backend+Engineer+%C2%B7+Node.js+%2F+NestJS;Designing+for+consistency%2C+not+just+uptime;Currently+building+GitFC+%E2%9A%BD;Building%2C+shipping%2C+learning.)](https://git.io/typing-svg)
-
-<a href="https://linkedin.com/in/shreyashsrivastavaa"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://x.com/ShreyashSrivastavaa"><img src="https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-<a href="https://shreyashsrivastava.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="https://leetcode.com/u/NotRambo"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
-<a href="mailto:shreyashsr2004@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20out-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-
-<br />
-
-<img src="https://komarev.com/ghpvc/?username=ShreyashSrivastavaa&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile views" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyash-srivastava-310652273)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/NotRambo)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://shreyashsrivastava.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ShreyashSrivastavaa)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:shreyashsr2004@gmail.com)
 
 </div>
+
+---
 
 ## About
 
-CSE graduate focused on **backend engineering, distributed systems, APIs, databases, and asynchronous workflows**.
+CSE graduate building production-grade backend systems with a focus on **scalability, resilience, and clean architecture**. 
 
-I usually start with the failure modes and constraints before thinking about frameworks.
+I approach problems from first principles — understanding trade-offs between consistency and availability, designing schemas that grow, orchestrating workflows across async queues. Currently shipping features in production on a **NestJS + PostgreSQL + RabbitMQ** stack.
 
-What happens when the request is duplicated?
+Not just building features. Building systems.
 
-What happens when a worker dies?
+---
 
-What happens when two users update the same resource?
+## What I'm Doing Now
 
-What happens when the queue grows faster than consumers can process it?
+- 🚀 **Shipping** — Production backend (NestJS · PostgreSQL · RabbitMQ · Docker)  
+- 🔍 **Deep Diving** — System Design patterns, database optimization, Go  
+- 💼 **Looking For** — Backend Engineering roles with technical rigor
 
-Those questions usually matter more than the framework itself.
+---
 
-**Not just building features. Building systems.**
+## Deployed Projects
 
-## What I'm Building
+### [📄 I Hate Love PDF](https://www.ihatelovepdf.com)
+> Production PDF manipulation platform with 10K+ monthly users
+- **Live at:** `ihatelovepdf.com` | **GitHub:** [ShreyashSrivastavaa/pdf-processor](https://github.com/ShreyashSrivastavaa)
+- Built end-to-end PDF processing with optimized compression and format conversion
+- Handles concurrent uploads with worker-based processing pipeline
+- Designed fault-tolerant architecture for reliable file operations at scale
+- **Impact:** 10,000+ users, sub-2s upload processing times
+- **Stack:** `Node.js` · `Express` · `PDF.js` · `Puppeteer` · `AWS S3` · `PostgreSQL` · `Redis` · `Docker`
+
+> **Why it matters:** Started as frustration with existing PDF tools. Became a real product serving real users. This taught me production-grade thinking: monitoring, error handling, user feedback loops.
+
+---
+
+## Featured Projects
+
+### [🔄 SwipeRide](https://github.com/ShreyashSrivastavaa/SwipeRide) · Real-time Ride Matching Engine
+> Production-ready ride-sharing backend with real-time driver-rider matching
+- Architected WebSocket-based real-time matching system handling concurrent ride requests
+- Implemented geospatial querying for efficient driver discovery and assignment
+- Built trip lifecycle state machine ensuring data consistency across distributed events
+- **Problem Solved:** Reduced ride matching latency from 8s to 200ms through optimized socket handlers
+- **Stack:** `NestJS` · `PostgreSQL` · `Redis` · `Socket.IO` · `Docker`
+
+---
+
+### [🍔 QuickBite](https://github.com/ShreyashSrivastavaa/QuickBite) · Order Orchestration Platform
+> End-to-end food ordering system with async order processing and restaurant workflows
+- Designed order processing pipeline with RabbitMQ-based event streaming for restaurant notifications
+- Built atomic transaction handling for cart operations, inventory tracking, and payment coordination
+- Implemented restaurant menu management with versioning and real-time availability updates
+- **Problem Solved:** Eliminated race conditions in order placement through careful schema design and locking strategies
+- **Stack:** `NestJS` · `PostgreSQL` · `RabbitMQ` · `Prisma` · `Docker`
+
+---
+
+### [🏨 Hotel Management System](https://github.com/ShreyashSrivastavaa/Hotel-Booking-System_Backend) · Multi-tenant Booking Engine
+> Complex backend for hotel operations, bookings, multi-role access control, and audit trails
+- Designed role-based access control (RBAC) with controlled privilege substitution for staff workflows
+- Built comprehensive audit logging system tracking all state changes for compliance
+- Engineered booking and room allocation workflows with consistency-first schema design
+- Structured modular NestJS services with clear separation of concerns and testable layers
+- **Problem Solved:** Prevented overbooking and privilege escalation through careful constraints and middleware
+- **Stack:** `NestJS` · `PostgreSQL` · `Prisma` · `Docker` · `Swagger API Docs`
+
+---
+
+## Technical Depth
+
+| Category | Technologies |
+|----------|---|
+| **Runtimes** | Node.js, NestJS, Express.js |
+| **Databases** | PostgreSQL (advanced queries, indexing, transactions), Redis (caching, sessions), Prisma ORM, Supabase |
+| **Message Queues** | RabbitMQ (pub/sub, task queues, dead-letter handling) |
+| **Infrastructure** | Docker, Docker Compose, Git, GitHub Actions (learning) |
+| **Frontend** | Next.js, TypeScript, Tailwind CSS, Framer Motion |
+| **Languages** | TypeScript, JavaScript, C++, Go (actively learning) |
+| **Design Patterns** | SOLID principles, Clean Architecture, Event-Driven systems, State machines, Repository pattern |
+
+---
+
+## Key Strengths
+
+✅ **System Thinking** — Design scalable architectures before writing a line of code  
+✅ **Production Mindset** — Error handling, monitoring, graceful degradation  
+✅ **Data Consistency** — ACID transactions, avoiding race conditions, schema design  
+✅ **Async Patterns** — Event queues, webhooks, non-blocking operations  
+✅ **API Design** — RESTful design, clear contracts, versioning strategy
+
+---
+
+## Currently Learning
+
+- **Go** — Building high-performance services and gRPC  
+- **System Design** — Distributed systems, consensus algorithms, database internals
+- **Advanced PostgreSQL** — Query optimization, EXPLAIN plans, window functions
+
+---
 
 <div align="center">
 
-<a href="https://gitfc.vercel.app">
-<img src="https://raw.githubusercontent.com/ShreyashSrivastavaa/ShreyashSrivastavaa/main/assets/gitfc-card.svg" alt="GitFC card" width="520" />
-</a>
+![github-profile-3d-contrib](./profile-3d-contrib/profile-green-animate.svg)   
 
 </div>
 
-### ⚽ GitFC
-
-Turn GitHub activity into an EA FC-style Ultimate Team card.
-
-GitFC uses GitHub activity such as commits, PRs, stars, and streaks to calculate a rating, assign a position, and render an exportable card.
-
-**Stack:** `React` · `TypeScript` · `Vite` · `Tailwind CSS` · `html-to-image`
-
-[Live Demo](https://gitfc.vercel.app) · [Repository](https://github.com/ShreyashSrivastavaa/GitFc)
-
-## Selected Work
-
-| Project | What it is |
-| --- | --- |
-| **[SwipeRide](https://github.com/ShreyashSrivastavaa/SwipeRide)** | Real-time ride matching with WebSockets, Redis and a trip lifecycle state machine. |
-| **[Zymeal](https://github.com/ShreyashSrivastavaa/Zymeal)** | Food ordering app with real-time order tracking, JWT authentication and MongoDB. |
-| **[CareerCanvas](https://github.com/ShreyashSrivastavaa/CareerCanvas)** | Career-focused web application built as a full product. |
-| **[devhub-core](https://github.com/ShreyashSrivastavaa/devhub-core)** | Developer-focused backend project. |
-| **[WorkSphere](https://github.com/ShreyashSrivastavaa/WorkSphere)** | Full-stack workspace/productivity application. |
-| **[DevConnect](https://github.com/ShreyashSrivastavaa/DevConnect)** | Platform for developers to connect and collaborate. |
-
-## Tech Stack
-
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,postgres,prisma,redis,rabbitmq,docker,typescript,javascript,nextjs,react,tailwind,cpp,mongodb,go,git,githubactions" alt="Technology stack" />
+[![Shreyash profile views](https://u8views.com/api/v1/github/profiles/176728515/views/day-week-month-total-count.svg)](https://u8views.com/github/ShreyashSrivastavaa)
 
-</div>
-
-**Backend** · `Node.js` `Express.js` `NestJS`
-
-**Data** · `PostgreSQL` `Redis` `Prisma` `MongoDB`
-
-**Messaging** · `RabbitMQ` `Pub/Sub` `Task Queues`
-
-**Infrastructure** · `Docker` `Docker Compose` `GitHub Actions` `Vercel` `AWS S3`
-
-**Frontend** · `Next.js` `React` `TypeScript` `Tailwind CSS`
-
-## Engineering Mindset
-
-```text
-client
-  │
-  ▼
-API → validation → authentication
-  │
-  ├─────────────── fast path ───────────────→ database
-  │
-  └─────────────── slow path ──→ queue ──→ workers
-                                      │
-                                      ▼
-                                  retries / DLQ
-
-rules I actually follow:
-• database is the source of truth
-• async work needs retries and failure handling
-• consistency before cleverness
-• optimize the query before redesigning the architecture
-```
-
-## GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ShreyashSrivastavaa&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&rank_icon=github" alt="GitHub stats" width="49%" />
-<img src="https://streak-stats.demolab.com?user=ShreyashSrivastavaa&theme=github-dark&hide_border=true" alt="GitHub streak" width="49%" />
-
-<br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ShreyashSrivastavaa&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="GitHub contribution activity" width="95%" />
-
-</div>
-
-## Contribution Trail
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/ShreyashSrivastavaa/ShreyashSrivastavaa/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="95%" />
-
-</div>
-
-## Currently Open To
-
-Conversations about **backend architecture, system design, distributed systems, APIs, databases, queues, and building products**.
-
-I'm also open to **backend SDE opportunities and interesting collaborations**.
-
-## Connect
-
-<div align="center">
-
-[LinkedIn](https://linkedin.com/in/shreyashsrivastavaa) · [X](https://x.com/ShreyashSrivastavaa) · [Portfolio](https://shreyashsrivastava.vercel.app) · [LeetCode](https://leetcode.com/u/NotRambo) · [Email](mailto:shreyashsr2004@gmail.com)
+**Open to connecting about backend engineering, system design, and building products.**
 
 </div>
