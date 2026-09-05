@@ -55,9 +55,18 @@ jobs:
 
             await page.waitForTimeout(5000);
 
-            await page.screenshot({
-              path: "assets/github-card/github-card.png",
-              fullPage: false
+            const card = page
+              .locator(".card-flip-in")
+              .filter({ hasText: "SHREYASH" })
+              .last();
+
+            await card.waitFor({
+              state: "visible",
+              timeout: 30000
+            });
+
+            await card.screenshot({
+              path: "assets/github-card/github-card.png"
             });
 
             await browser.close();
