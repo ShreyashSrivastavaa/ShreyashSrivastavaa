@@ -70,7 +70,7 @@ Not just building features. Building systems.
 
 ---
 
-### [🏥 Hospital Management System](https://github.com/ShreyashSrivastavaa/Hotel-Booking-System_Backend) · Multi-Role Healthcare Management Platform
+### [🏥 Hospital Management System](https://hospital-management-system-d3o5.onrender.com/login) · Multi-Role Healthcare Management Platform
 > Complex backend for hospital operations, patient management, appointments, multi-role access control, and audit trails
 - Designed role-based access control (RBAC) with controlled privilege substitution for staff workflows
 - Built comprehensive audit logging system tracking all critical state changes for compliance and accountability
@@ -78,6 +78,7 @@ Not just building features. Building systems.
 - Structured modular NestJS services with clear separation of concerns and testable layers
 - **Problem Solved:** Prevented scheduling conflicts, unauthorized access, and inconsistent patient records through careful constraints and middleware
 - **Stack:** `NestJS` · `PostgreSQL` · `Prisma` · `Docker` · `Swagger API Docs`
+
 ---
 
 ## Technical Depth
