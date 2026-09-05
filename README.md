@@ -25,11 +25,6 @@ Not just building features. Building systems.
 
 ---
 
-<div align="center">
-
-[![GitHub Card](https://gitfc.vercel.app/?card=ShreyashSrivastavaa)](https://gitfc.vercel.app/?card=ShreyashSrivastavaa)
-
-</div>
 
 ## What I'm Doing Now
 
