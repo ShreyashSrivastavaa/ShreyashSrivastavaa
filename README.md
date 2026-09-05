@@ -70,15 +70,14 @@ Not just building features. Building systems.
 
 ---
 
-### [🏨 Hotel Management System](https://github.com/ShreyashSrivastavaa/Hotel-Booking-System_Backend) · Multi-tenant Booking Engine
-> Complex backend for hotel operations, bookings, multi-role access control, and audit trails
+### [🏥 Hospital Management System](https://github.com/ShreyashSrivastavaa/Hotel-Booking-System_Backend) · Multi-Role Healthcare Management Platform
+> Complex backend for hospital operations, patient management, appointments, multi-role access control, and audit trails
 - Designed role-based access control (RBAC) with controlled privilege substitution for staff workflows
-- Built comprehensive audit logging system tracking all state changes for compliance
-- Engineered booking and room allocation workflows with consistency-first schema design
+- Built comprehensive audit logging system tracking all critical state changes for compliance and accountability
+- Engineered patient admission, appointment scheduling, and resource allocation workflows with consistency-first schema design
 - Structured modular NestJS services with clear separation of concerns and testable layers
-- **Problem Solved:** Prevented overbooking and privilege escalation through careful constraints and middleware
+- **Problem Solved:** Prevented scheduling conflicts, unauthorized access, and inconsistent patient records through careful constraints and middleware
 - **Stack:** `NestJS` · `PostgreSQL` · `Prisma` · `Docker` · `Swagger API Docs`
-
 ---
 
 ## Technical Depth
