@@ -36,8 +36,11 @@ Not just building features. Building systems.
 
 ## Deployed Projects
 
+
 ### [📄 I Hate Love PDF](https://www.ihatelovepdf.com)
-> Production PDF manipulation platform with 10K+ monthly users
+Founder & Developer of I Hate Love PDF, a 100% private, client-side PDF tool suite.
+
+> Production PDF manipulation platform with 500+ monthly users
 - **Live at:** `ihatelovepdf.com` | **GitHub:** [ShreyashSrivastavaa/pdf-processor](https://github.com/ShreyashSrivastavaa)
 - Built end-to-end PDF processing with optimized compression and format conversion
 - Handles concurrent uploads with worker-based processing pipeline
