@@ -23,11 +23,6 @@
 
 [![XERJ Corpus Hub Contributor](https://hub.xerj.org/contributors/ShreyashSrivastavaa/badge.svg)](https://hub.xerj.org/contributors/ShreyashSrivastavaa)
 
-My [I Hate Love PDF](https://github.com/ShreyashSrivastavaa/Ihatelovepdf) repository has a selected commit indexed in the public corpus:
-
-**21 files · 2,092 lines · TypeScript**
-
-[View my XERJ contributor profile →](https://hub.xerj.org/contributors/ShreyashSrivastavaa)
 
 </div>
 
