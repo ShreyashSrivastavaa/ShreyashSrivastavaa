@@ -10,6 +10,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://shreyashsrivastava.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ShreyashSrivastavaa)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:shreyashsr2004@gmail.com)
+[![XERJ Corpus Hub Contributor](https://hub.xerj.org/contributors/ShreyashSrivastavaa/badge.svg)](https://hub.xerj.org/contributors/ShreyashSrivastavaa)
 
 </div>
 
