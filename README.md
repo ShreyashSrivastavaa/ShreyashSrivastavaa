@@ -10,7 +10,24 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://shreyashsrivastava.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ShreyashSrivastavaa)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:shreyashsr2004@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌍 Open Source Contributor
+
+**Recognized on the [XERJ Corpus Hub](https://hub.xerj.org) for my open-source work.**
+
 [![XERJ Corpus Hub Contributor](https://hub.xerj.org/contributors/ShreyashSrivastavaa/badge.svg)](https://hub.xerj.org/contributors/ShreyashSrivastavaa)
+
+My [I Hate Love PDF](https://github.com/ShreyashSrivastavaa/Ihatelovepdf) repository has a selected commit indexed in the public corpus:
+
+**21 files · 2,092 lines · TypeScript**
+
+[View my XERJ contributor profile →](https://hub.xerj.org/contributors/ShreyashSrivastavaa)
 
 </div>
 
