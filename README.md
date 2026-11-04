@@ -130,11 +130,7 @@ Founder & Developer of I Hate Love PDF, a 100% private, client-side PDF tool sui
 
 ---
 
-<div align="center">
 
-![isocalendar](./assets/metrics/isocalendar.svg)   
-
-</div>
 
 <div align="center">
 
